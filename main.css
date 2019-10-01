@@ -33,10 +33,18 @@ p {
 }
 
 .left-navbar a {
-	color: #fff;
+	color: #dadada !important; 
 	text-decoration: none;
 }
 
+.navbar-link {
+	display: inline-block;
+	margin: 5px auto;
+	font-size: 20px;
+	transition: 0.2s;
+} .navbar-link:hover {
+	color: #fff !important;
+}
 
 .main-content {
 	margin: 0px 0px 0px 28%;
